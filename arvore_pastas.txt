@@ -1,0 +1,24 @@
+📁 SPR
+    📄 2b01082afeaf288de6af9792df60ce50.nc
+    📄 arvore_pastas.txt
+    📄 arvore_pastas.xlsx
+    📄 sample_100mb.bin
+    📁 data
+        📁 processed
+        📁 raw
+    📁 etl
+        📄 CSPRetlfetch_era5_prod.py
+        📄 fetch_era5.py
+        📄 fetch_era5_prod.py
+        📁 outputs
+    📁 logs
+    📁 notebooks
+    📁 outputs
+        📄 era5_BR_2023.nc
+        📄 era5_BR_2025.nc
+    📁 tools
+        📄 fetch_era5.py
+        📄 profile.env
+        📄 setup_rclone.bat
+        📁 outputs
+            📄 era5_2024.nc

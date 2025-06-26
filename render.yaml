@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: spr-ai-relay
+    env: python
+    plan: starter
+    buildCommand: docker build -t spr-ai-relay .
+    startCommand: docker run -p 8000:8000 spr-ai-relay
+    envVars:
+      - key: OPENAI_API_KEY
+      - key: ANTHROPIC_API_KEY

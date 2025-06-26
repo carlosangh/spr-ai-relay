@@ -1,0 +1,9 @@
+.venv
+__pycache__
+outputs/
+logs/
+*.bin
+*.nc
+*.zip
+*.exe
+.env
